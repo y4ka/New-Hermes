@@ -1,0 +1,56 @@
+<scenario>
+
+    <teams nbTeams="2">
+        <team teamId="0">
+            <teamShortName>AAC</teamShortName>
+            <teamName>Association Airsoft Celloise</teamName>
+            <spawnAllowed>true</spawnAllowed>
+            <spawnNumber>10</spawnNumber>
+        </team>
+        <team teamId="1">
+            <teamShortName>RK</teamShortName>
+            <teamName>Rasen Katon</teamName>
+            <spawnAllowed>true</spawnAllowed>
+            <spawnNumber>10</spawnNumber>
+        </team>
+    </teams>
+    
+    <players nbPlayers="5">
+    	<player playerId="0">
+    		<playerName>Evergnault</playerName>
+    		<teamId>0</teamId>
+    	</player>
+    	<player playerId="1">
+    		<playerName>PapaOurs</playerName>
+    		<teamId>0</teamId>
+    	</player>
+    	<player playerId="2">
+    		<playerName>Vincent</playerName>
+    		<teamId>0</teamId>
+    	</player>
+    	<player playerId="3">
+    		<playerName>RKPlayer</playerName>
+    		<teamId>1</teamId>
+    	</player>
+    	<player playerId="4">
+    		<playerName>RKPlayer 2</playerName>
+    		<teamId>1</teamId>
+    	</player>
+    </players>
+    
+    <pylons nbPylons="2">
+    	<pylon pylonId="0">
+    		<pylonName>A Site</pylonName>
+    		<enabled>true</enabled>
+    		<hitDetectorEnabled>true</hitDetectorEnabled>
+    		<keyboardEnabled>true</keyboardEnabled>
+    	</pylon>
+    	<pylon pylonId="1">
+    		<pylonName>B Site</pylonName>
+    		<enabled>false</enabled>
+    		<hitDetectorEnabled>false</hitDetectorEnabled>
+    		<keyboardEnabled>false</keyboardEnabled>
+    	</pylon>
+    </pylons>
+    
+</scenario>
